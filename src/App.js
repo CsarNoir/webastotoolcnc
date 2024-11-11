@@ -5,8 +5,8 @@ function App() {
   
 
   const [tableData, setTableData] = useState([
-    { fecha: '2024-11-10', cnc: 'CNC-01', numeroParte: 'P12345', noHerramienta: 'H001', noCiclos: 150, razonCambio: 'Desgaste de herramienta' },
-    { fecha: '2024-11-11', cnc: 'CNC-02', numeroParte: 'P67890', noHerramienta: 'H002', noCiclos: 100, razonCambio: 'Ajuste de precisión' },
+    { fecha: '2024-11-10', cnc: 'CNC 6', numeroParte: 'U611 RH', noHerramienta: 'T1', noCiclos: 150, razonCambio: 'Desgaste de herramienta' },
+    { fecha: '2024-11-11', cnc: 'CNC 7', numeroParte: '780B RH', noHerramienta: 'T1', noCiclos: 100, razonCambio: 'Dureza del materia' },
   ]);
 
   // Estado para capturar los datos del nuevo registro
